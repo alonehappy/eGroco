@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  transition: all 0.2s linear;
+}
+:root {
+  --green: green;
+  --black: #130f40;
+  --light-color: #666;
+  --box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+  --border: 0.2rem solid rgba(0, 0, 0, 0.1);
+  --outline: 0.1rem solid rgba(0, 0, 0, 0.1);
+}
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+  }
+  body {
+    background: #eee;
+  }
+  .btn {
+    border: 0.2rem solid var(--black);
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 0.8rem 2.5rem;
+    font-size: 1.7rem;
+    border-radius: 0.5rem;
+    color: var(--black);
+    cursor: pointer;
+    background: none;
+  }
+  .btn:hover {
+    background: var(--green);
+    color: #fff;
+  }
+  .heading span {
+    background: var(--green);
+    color: #fff;
+    display: inline-block;
+    padding: 0.5rem 3rem;
+    letter-spacing: 2px;
+    clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+  }
+
+
+
+
+.container-fluid .logo i {
+  color: green;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    padding: 2rem 7%;
+    background: #fff;
+    box-shadow: var(--box-shadow);
+}
+.navbar .container-fluid span i,
+.navbar .container-fluid span a{
+    margin-right: 1.7rem;
+}
+.navbar .container-fluid .logo{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color:#551A8B;
+}
+.navbar .container-fluid span a{
+    text-decoration: none;
+    color: var(--black);
+    font-size: 2rem;
+}
+.navbar .container-fluid span i{
+    color: var(--black);
+    font-size: 2rem;
+}
+.navbar .container-fluid span h2{
+    display: inline-block;
+}
+div .dashboard{
+    color: #130f40;
+    font-size: 5rem;
+    margin-top: 10rem;
+}
+.post-product{
+    margin-top: 2rem;
+    text-decoration: none;
+}
+.post-product a{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.post-product .plr{
+
+    padding: 0 5rem;
+}
+
+
+/* index.php start here  */
+
+/* index.php ends here */
